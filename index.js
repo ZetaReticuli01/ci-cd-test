@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("CI/CD Deep Learning Mode 🚀");
+  res.send("CI/CD Ultra pro max Learning Mode 🚀");
 });
 
 app.listen(1627, () => {
