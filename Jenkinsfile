@@ -25,10 +25,11 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                bat 'pm2 list'
-            }
-        }
+     stage('Deploy') {
+    steps {
+        bat 'npx pm2 list'
+    }
+}
+
     }
 }
